@@ -1,0 +1,69 @@
+
+
+svg {
+	font: 10px sans-serif;
+}
+
+.area {
+	fill: steelblue;
+	clip-path: url(#clip);
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: silver;
+	shape-rendering: crispEdges;
+}
+
+.brush .extent {
+	stroke: #fff;
+	fill-opacity: .125;
+	shape-rendering: crispEdges;
+}
+
+.chartArea {
+    background: #deebef;
+}
+
+.line {
+    stroke: steelblue;
+    stroke-width: 1; 
+    fill: none;
+}
+
+.chartArea #chartSmall {
+    background: #fff;
+}
+
+.chartArea #chartSmall .line {
+    stroke: steelblue;
+    stroke-width: 2; 
+}
+
+.overlay {
+  fill: pink;
+  fill-opacity:.3;
+  fill:none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: steelblue;
+  fill-opacity:.5;
+
+  stroke: orangered;
+  stroke-width: 2;
+}
+
+.note text {
+    fill: orangered;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.guide
+{
+  fill: steelblue;
+  fill-opacity: .2;
+}
